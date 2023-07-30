@@ -17,7 +17,7 @@
 }
 
 input {
-  width: 60%;
+  width: 40%;
   margin: 20px auto;
   font-size: 18px;
   border: 3px inset dimgrey;
@@ -31,7 +31,8 @@ button {
   font-size: 18px;
   border: 1px solid yellow;
   border-radius: 7px;
-  background: linear-gradient(0deg, yellow 10%, orange 70%, darkorange 90%);
+  background: linear-gradient(0deg, 
+    yellow 10%, orange 70%, darkorange 90%);
   box-shadow: 0px 0px 4px #242424;
   padding: 10px 7px;
   color: purple;
@@ -61,6 +62,15 @@ button:active {
   padding: 30px 0px;
 }
 
+.div--fulllist {
+  width: 600px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px 0px;
+}
+
 p {
   text-align: center;
   font-size: 24px;
@@ -70,7 +80,7 @@ p {
 li, a {
   margin: 0 25%;
   text-align: left;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 li {
