@@ -1,0 +1,97 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div--inputbtn {
+  width: 600px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: sandybrown;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px #242424;
+}
+
+input {
+  width: 40%;
+  margin: 20px auto;
+  font-size: 18px;
+  border: 3px inset dimgrey;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+button {
+  width: 20%;
+  margin: 20px auto;
+  font-size: 18px;
+  border: 1px solid yellow;
+  border-radius: 7px;
+  background: linear-gradient(0deg, 
+    yellow 10%, orange 70%, darkorange 90%);
+  box-shadow: 0px 0px 4px #242424;
+  padding: 10px 7px;
+  color: purple;
+  transition: transform ease 0.2;
+}
+button:hover {
+  box-shadow: 0px 0px 0px #242424;
+  color: #424242;
+  cursor: pointer;
+  transform: scale(0.95);
+}
+button:active {
+  color: magenta;
+  transform: scale(1.0);
+}
+
+.div--display {
+  width: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: sandybrown;
+  border: 1px solid yellow;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px #242424;
+  padding: 30px 0px;
+}
+
+.div--fulllist {
+  width: 600px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  color: dimgrey;
+}
+
+li, a {
+  margin: 0 25%;
+  text-align: left;
+  font-size: 22px;
+}
+
+li {
+  color: #242424;
+}
+
+a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+a:hover {
+  color: yellow;
+}
